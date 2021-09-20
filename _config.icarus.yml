@@ -313,6 +313,14 @@ widgets:
         client_id: 'ca-pub-1493957396679964'
         # AdSense AD unit ID
         slot_id: '8603038540'
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: right
+        type: adsense
+        # AdSense client ID
+        client_id: 'ca-pub-1493957396679964'
+        # AdSense AD unit ID
+        slot_id: '2859757270'
     # Follow.it email subscription widget configurations
 #    -
 #        # Where should the widget be placed, left sidebar or right sidebar
