@@ -11,6 +11,7 @@ comments: true
 # 需求
 这两天我需要kubernetes 上面没有ready 的pod列出来, 然后对这些pod进行操作, 又要用到ansible, 思来想去不如来个map, 那么 python 或者ansible里面叫dict
 
+<!--more-->
 # 输入
 这里有一个 kubectl get pods 得出的结果, 使用ansible的 shell, 我们需要处理其中的stdout, 或者stdout_lines
 ```

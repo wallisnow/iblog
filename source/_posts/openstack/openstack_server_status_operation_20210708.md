@@ -18,6 +18,7 @@ contentCopyright: '<a rel="license noopener" href="https://creativecommons.org/l
 $ openstack server pause myInstance
 $ openstack server unpause myInstance
 ```
+<!--more-->
 # 2. 挂起/取消挂起
 * 这种状态类似物理机休眠, 状态会保存在文件中, CUP和RAM会被释放出来
 ```

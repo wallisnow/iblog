@@ -14,7 +14,7 @@ contentCopyright: '<a rel="license noopener" href="https://en.wikipedia.org/wiki
 <!--more-->
 # 0. 为什么需要找到Blocking call
 我们使用reactor编程时，其目的就是希望我们的程序符合异步非阻塞的模型，为了达到这个目的，我们希望我们程序中所有的方法都是非阻塞的方法(理想状态)，比如我们在处理JDBC链接时，会考虑使用Schedulers来包裹或是使用R2DBC，那么在响应式编程中，我们会遇到形形色色的阻塞方法，此时，我们就需要用合理的方式处理它们了.
-
+<!--more-->
 # 1. 解决方案
 BlockHound
 

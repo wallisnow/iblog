@@ -14,7 +14,7 @@ contentCopyright: '<a rel="license noopener" href="https://creativecommons.org/l
 kustomize 形如customize, 也就是k8s+customize, 它是kube资源描述文件的一种抽象工具.
 
 > 官方地址: https://kustomize.io/
-
+<!--more-->
 # 1. 为什么会用 kustomize
 
 kustomize它作用类似Helm, 它的实现方式和helm不同, helm是基于模版, 而kustomize是基于overlay 引擎. 通俗讲就是说, 你写一个普通的k8s资源描述yaml文件, 那么所有东西都是写死的, 此时如果你有helm, 你可以把部分值写成变量模版, 达到灵活的目的. 而kustomize更像是代码式的声明将,基代码和定制化代码重叠, 达到灵活的目的, 有时我们的配置比较简单且固定, 此时, 我们更希望一种快捷易于操作的方式, 那么此时就可以考虑kustomize, 当然这不代表kustomize只能写简单的东西.

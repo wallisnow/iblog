@@ -9,7 +9,7 @@ comments: true
 
 # 1. 前置条件
 准备一台centos 8 的机器, 我这里用的是vagrant安装的centos8镜像
-
+<!--more-->
 # 2. 安装过程
 
 # 2.1 测试是否链接外网

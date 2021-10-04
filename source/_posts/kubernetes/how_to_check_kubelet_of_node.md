@@ -16,7 +16,7 @@ comments: true
 ```
 api/vi/nodes/<node_name>/proxy/cofigz
 ```
-
+<!--more-->
 # 2. 举个栗子
 
 例如我们有这样一个集群:

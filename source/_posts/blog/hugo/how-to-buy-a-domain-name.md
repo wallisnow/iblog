@@ -7,8 +7,6 @@ comments: true
 contentCopyright: '<a rel="license noopener" href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" target="_blank">Creative Commons Attribution-ShareAlike License</a>'
 
 ---
-
-<!--more-->
 # 0. 域名(Domain name)是什么
 [维基百科][domain-name]中定义: 网域名称（英语：Domain Name，简称：Domain），简称域名、网域，是由一串用点分隔的字符组成的互联网上某一台计算机或计算机组的名称，用于在数据传输时标识计算机的电子方位。域名可以说是一个IP地址的代称，目的是为了便于记忆后者。
 大白话就是说, 用一个好记的名字来代表ip地址. 类似别人问你在哪, 你会说"我在北京路", 而不会说我在北纬41°24'12.2 ... 
@@ -21,6 +19,7 @@ contentCopyright: '<a rel="license noopener" href="https://en.wikipedia.org/wiki
 * 国内: https://wanwang.aliyun.com/domain/
 * 国外: https://www.godaddy.com/
 
+<!--more-->
 # 3. 实例 (goDaddy)
 由于我是用goDaddy, 我这里就直接用它来讲解
 

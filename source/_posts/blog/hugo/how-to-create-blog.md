@@ -10,7 +10,6 @@ contentCopyright: '<a rel="license noopener" href="https://en.wikipedia.org/wiki
 
 ---
 
-<!--more-->
 # 0. 搭建个人博客原料
 *github pages*
 
@@ -20,6 +19,7 @@ contentCopyright: '<a rel="license noopener" href="https://en.wikipedia.org/wiki
 
 Hugo是一个免费的go语言博客框架, 会帮助我们生成静态的html及相关脚本, 类似Hexo, 本教程使用的是Hugo框架
 
+<!--more-->
 # 1. 安装HUGO
 
 - Windows

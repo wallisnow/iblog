@@ -16,7 +16,7 @@ comments: true
 # 2.如何工作
 vagrant 通过不同的provider 来对虚拟机软件的API进行调用, 例如 virtualbox, 那么vagrant 通过virtualbox provider 来操作VM. 也就省去了我们手动创建的麻烦
 ![how_does_vagrant_works](https://res.cloudinary.com/djpkulbas/image/upload/v1626286970/vagrant/how_does_vagrant_works_ltsbdm.png)
-
+<!--more-->
 # 3. 安装
 
 > 更多方式: https://www.vagrantup.com/downloads
