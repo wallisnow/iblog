@@ -269,59 +269,59 @@ widgets:
         # Maximum level of headings to show (1-6)
         depth: 3
     # Recommendation links widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: right
-        type: links
-        # Names and URLs of the sites
-        links:
-            Hexo: 'https://hexo.io'
-    # Categories widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: right
-        type: categories
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: left
+#        type: links
+#        # Names and URLs of the sites
+#        links:
+#            哭啼妈妈: 'https://qtimom.com/'
     # Recent posts widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: right
+        position: left
         type: recent_posts
     # Archives widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: right
+        position: left
         type: archives
     # Tags widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
         type: tags
+    # Categories widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: categories
     # Google FeedBurner email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: subscribe_email
-        # Hint text under the email input
-        description:
-        # Feedburner ID
-        feedburner_id: ''
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: left
+#        type: subscribe_email
+#        # Hint text under the email input
+#        description:
+#        # Feedburner ID
+#        feedburner_id: ''
     # Google AdSense unit configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: adsense
-        # AdSense client ID
-        client_id: 'ca-pub-1493957396679964'
-        # AdSense AD unit ID
-        slot_id: '8603038540'
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: right
-        type: adsense
-        # AdSense client ID
-        client_id: 'ca-pub-1493957396679964'
-        # AdSense AD unit ID
-        slot_id: '2859757270'
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: left
+#        type: adsense
+#        # AdSense client ID
+#        client_id: 'ca-pub-1493957396679964'
+#        # AdSense AD unit ID
+#        slot_id: '8603038540'
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: right
+#        type: adsense
+#        # AdSense client ID
+#        client_id: 'ca-pub-1493957396679964'
+#        # AdSense AD unit ID
+#        slot_id: '2859757270'
     # Follow.it email subscription widget configurations
 #    -
 #        # Where should the widget be placed, left sidebar or right sidebar

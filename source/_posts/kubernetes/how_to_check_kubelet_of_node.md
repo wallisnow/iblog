@@ -2,7 +2,7 @@
 title: "[kubernetes]如何查看node的kubelet配置"
 date: 2021-07-26T11:06:28+03:00
 draft: false
-tags: ["kubernetes", "kubelet", "kubernetes技巧"]
+tags: ["kubernetes"]
 categories: ["kubernetes"]
 author: "Jiang WU"
 comments: true

@@ -1,7 +1,8 @@
 ---
 title: 链接pod时 出现Error from server error dialing backend remote error - tls - internal error
 date: 2021-10-04 16:32:15
-tags:
+tags: ["kubernetes"]
+categories: ["kubernetes"]
 ---
 
 # 问题出现
