@@ -2,7 +2,7 @@
 title: "[ansible]key value list 转 dictionary"
 date: 2021-07-30T07:42:09+03:00
 draft: false
-tags: ["ansible", "ansible技巧"]
+tags: ["ansible"]
 categories: ["ansible"]
 author: "Jiang WU"
 comments: true

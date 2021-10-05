@@ -3,7 +3,7 @@ title: "[Vagrant] 入门"
 date: 2021-07-14T12:56:11+03:00
 draft: false
 layout: default
-tags: ["vagrant", "tutorial", "入门教程"]
+tags: ["vagrant", "tutorial"]
 categories: ["vagrant"]
 author: "Jiang WU"
 comments: true

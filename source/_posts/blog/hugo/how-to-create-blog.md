@@ -2,8 +2,8 @@
 title: "[博客搭建 0] - 新建并挂载自己的博客到github page"
 date: 2021-07-09
 draft: false
-categories: ["hugo", "blog"]
-tags: ["hugo","blog", "tutorial", "入门教程"]
+categories: ["blog"]
+tags: ["hugo","blog", "tutorial"]
 author: "Jiang WU"
 comments: true
 contentCopyright: '<a rel="license noopener" href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" target="_blank">Creative Commons Attribution-ShareAlike License</a>'

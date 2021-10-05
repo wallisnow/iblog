@@ -3,7 +3,7 @@ title: "[kubernetes]什么是overlay network"
 date: 2021-08-09T08:44:20+03:00
 draft: true
 categories: ["kubernetes", "network"]
-tags: ["kubernetes","network", "基本概念"]
+tags: ["kubernetes","network"]
 ---
 # 概述
 * overlay network 这个概念是在接触kubernetes后常常遇到的, 比如pod之间. 它其实就是解决了一个问题,就是, 不同宿主机之间, 要想pod之间能直接通信, 那么就必须通过某种方法来达到目的

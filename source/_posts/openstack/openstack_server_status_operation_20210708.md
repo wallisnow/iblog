@@ -2,7 +2,7 @@
 title: "[openstack] 如何开关vm及类似操作命令"
 date: 2021-07-02T11:55:41+03:00
 draft: false
-tags: ["openstack", "openstack常用操作", "openstack server"]
+tags: ["openstack", "openstack常用操作"]
 categories: ["openstack"]
 author: "Jiang WU"
 comments: true
