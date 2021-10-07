@@ -28,7 +28,7 @@ https://github.com/reactor/BlockHound
 在自己的工程中引入BlockHound
 
 ## 4.1. maven
-```
+```xml
 <dependency>
   <groupId>io.projectreactor.tools</groupId>
   <artifactId>blockhound-junit-platform</artifactId>
@@ -39,7 +39,7 @@ https://github.com/reactor/BlockHound
 ```
 
 ## 4.2. Gradle
-```
+```groovy
 repositories {
 mavenCentral()
 // maven { url 'https://repo.spring.io/milestone' }
@@ -55,7 +55,7 @@ testCompile 'io.projectreactor.tools:blockhound:$LATEST_RELEASE'
 ```
 
 # 5. 使用示例
-```
+```java
 public class DetectBlockingCall {
 
     @BeforeEach
@@ -99,7 +99,7 @@ public class DetectBlockingCall {
 
 新建一个工程com.test.support， 新建一个模块叫做blockhound-integration, 然后新建一个Log的忽略类
 
-```
+```java
 public class LogBlockHoundIntegration implements BlockHoundIntegration {
 // 使用系统变量来达到开关的目的
     private static final boolean ENABLED = Boolean.parseBoolean(System.getProperty("LogBlockHoundIntegration.enabled", Boolean.FALSE.toString()));
@@ -121,7 +121,7 @@ builder.allowBlockingCallsInside(
 
 实现TestExecutionListener, 静态加载BlockHound，使得所有测试方法都需要加载BlockHound
 
-```
+```java
 public class BlockHoundTestExecutionListener implements TestExecutionListener {
     static {
         BlockHound.install(builder -> {
@@ -138,7 +138,7 @@ public class BlockHoundTestExecutionListener implements TestExecutionListener {
 
 ## 6.3. 在自己模块的gradle文件中定义方法，引入我们的定义及默认的junit平台
 
-```
+```groovy
 ext {
     // add helper to activate Reactor BlockHound, https://github.com/reactor/BlockHound
     useReactorBlockHound = { ->
@@ -153,7 +153,7 @@ ext {
 
 build.gradle 中插入
 
-```
+```groovy
 subprojects { subproject ->
   subproject.useReactorBlockHound()
 }

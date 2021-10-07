@@ -22,7 +22,7 @@ head:
         theme_color: 
         # A placeholder background color for the application page to display
         # before its stylesheet is loaded
-        background_color: 
+        background_color:
         # The preferred display mode for the website
         display: standalone
         # Image files that can serve as application icons for different contexts
@@ -242,7 +242,7 @@ widgets:
         # Author name
         author: Jiang WU
         # Author title
-        author_title: 两个孩子的爹, 老公, 程序员
+        author_title: Daddy, Husband, Developer
         # Author's current location
         location: Espoo, Finland
         # URL or path to the avatar image
