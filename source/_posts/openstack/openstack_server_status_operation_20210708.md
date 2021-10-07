@@ -6,8 +6,7 @@ tags: ["openstack", "openstack常用操作"]
 categories: ["openstack"]
 author: "Jiang WU"
 comments: true
-contentCopyright: '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike License</a>'
-
+toc: true
 ---
 
 > 往往这些操作是需要特定权限的, 确保操作时你拥有操作权限

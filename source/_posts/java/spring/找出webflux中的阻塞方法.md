@@ -4,11 +4,8 @@ date: 2021-07-02T11:55:41+03:00
 tags: ["java", "spring", "webflux"]
 categories: ["java", "spring", "webflux"]
 comments: true
-
-thumbnailImage: /img/spring.png
-
-contentCopyright: '<a rel="license noopener" href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" target="_blank">Creative Commons Attribution-ShareAlike License</a>'
-
+toc: true
+thumbnail: /gallery/spring-web-flux.png
 ---
 
 <!--more-->
@@ -149,7 +146,7 @@ ext {
 }
 ```
 
-# 6.4. 定义执行操作入口
+## 6.4. 定义执行操作入口
 
 build.gradle 中插入
 

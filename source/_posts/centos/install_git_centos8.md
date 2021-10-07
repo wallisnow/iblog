@@ -4,6 +4,7 @@ date: 2021-08-02T11:11:47+03:00
 tags: ["centos8", "git"]
 categories: ["git"]
 comments: true
+toc: true
 ---
 
 # 前言

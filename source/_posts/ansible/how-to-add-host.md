@@ -3,6 +3,7 @@ title: "[ansible]add_host模块使用"
 date: 2021-10-07 10:48:08
 tags: ["ansible"]
 categories: ["ansible"]
+toc: true
 ---
 
 # 需求

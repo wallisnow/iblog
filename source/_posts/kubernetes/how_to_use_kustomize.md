@@ -5,8 +5,7 @@ draft: false
 tags: ["kubernetes", "kubernetes工具"]
 categories: ["kubernetes"]
 author: "Jiang WU"
-comments: true
-contentCopyright: '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike License</a>'
+toc: true
 ---
 
 # 0. 简介

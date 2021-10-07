@@ -4,8 +4,7 @@ date: 2021-07-05T18:08:23+03:00
 categories: ["blog"]
 tags: ["hugo","blog","tutorial"]
 comments: true
-contentCopyright: '<a rel="license noopener" href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" target="_blank">Creative Commons Attribution-ShareAlike License</a>'
-
+toc: true
 ---
 # 0. 域名(Domain name)是什么
 [维基百科][domain-name]中定义: 网域名称（英语：Domain Name，简称：Domain），简称域名、网域，是由一串用点分隔的字符组成的互联网上某一台计算机或计算机组的名称，用于在数据传输时标识计算机的电子方位。域名可以说是一个IP地址的代称，目的是为了便于记忆后者。

@@ -6,7 +6,7 @@ layout: default
 tags: ["vagrant", "tutorial"]
 categories: ["vagrant"]
 author: "Jiang WU"
-comments: true
+toc: true
 ---
 # 1.什么是vagrant
 具体定义大家可以参见官方网站: https://www.vagrantup.com/.

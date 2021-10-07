@@ -5,7 +5,7 @@ draft: false
 tags: ["kubernetes"]
 categories: ["kubernetes"]
 author: "Jiang WU"
-comments: true
+toc: true
 ---
 
 # 0. 前言
