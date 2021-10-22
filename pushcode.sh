@@ -1,9 +1,9 @@
 #!/bin/bash
 
-publish_to_blog="${1:-"n"}"
+publish_to_blog="${2:-"n"}"
 
 def_msg=""
-additional_msg="${2:-$def_msg}"
+additional_msg="${1:-$def_msg}"
 
 if [ "$publish_to_blog" == "y" ];
 then
@@ -12,7 +12,7 @@ elif [ "$publish_to_blog" == "n" ];
 then
   hexo g
 else
-  echo "Unrecognized command for hexo deploy!"
+  echo "Unrecognized command for hexo deploy!, only 'y' or 'n' should be applied"
   exit 1
 fi
 
