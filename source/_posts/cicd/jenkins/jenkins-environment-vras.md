@@ -9,7 +9,7 @@ toc: true
 
 # 如何查看Jenkins 的环境变量
 ## 直接通过访问master节点的env-vars.html 
-直接通过访问master节点的env-vars.html, 例如http://<HOST>/env-vars.html/, 你可以看到所有当前的环境变量, 但是这些环境变量只是jenkins此时预制的环境变量
+直接通过访问master节点的env-vars.html, 例如 ```http://<HOST>/env-vars.html/```, 你可以看到所有当前的环境变量, 但是这些环境变量只是jenkins此时预制的环境变量
 <!--more-->
 ## 通过 printenv 查看
 编辑Jenkinsfile脚本, 使用printenv.
@@ -29,7 +29,7 @@ pipeline {
 ```
 
 ## 定义一个环境变量
-编辑Jenkinsfile脚本, 例子:
+编辑Jenkinsfile脚本, 例如定义一个 MY_ENV:
 ```groovy
 pipeline {
     agent { label "master" }
@@ -130,4 +130,4 @@ MY_ENV = bar
 [Pipeline] }
 ... ...
 ```
-可以看出, 如果是使用 _environment{}_ 定义的环境变量, 需要 withEnv([]), 而普通直接定义的环境变量只需要 **env.** 赋值的形式即可
+可以看出,普通直接定义的环境变量只需要 **env.** 赋值的形式即可,如果是使用 _environment{}_ 定义的环境变量, 是需要 withEnv([])方法的, 不然是不能修改成功的.
