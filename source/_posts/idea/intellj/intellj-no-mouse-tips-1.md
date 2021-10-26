@@ -18,7 +18,7 @@ Ctrl+E
 ```bash
 Ctrl+Shift+E
 ```
-
+<!--more-->
 ## 操作2: 声明方法之间跳转
 ```bash
 Alt+Down 或 Up
