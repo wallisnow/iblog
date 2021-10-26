@@ -10,7 +10,7 @@ if [ "$publish_to_blog" == "y" ]; then
 elif [ "$publish_to_blog" == "n" ]; then
   hexo g
 else
-  echo "Unrecognized command for hexo deploy!, only 'y' or 'n' should be applied"
+  echo "Only push code to master, use 'y' or 'n' to deploy the blog"
 fi
 
 git add .
