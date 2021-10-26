@@ -1,9 +1,9 @@
 #!/bin/bash
 
-publish_to_blog="${2:-"n"}"
+publish_to_blog="${1}"
 
 def_msg=""
-additional_msg="${1:-$def_msg}"
+additional_msg="${2:-$def_msg}"
 
 if [ "$publish_to_blog" == "y" ]; then
   hexo g -d
