@@ -11,7 +11,6 @@ elif [ "$publish_to_blog" == "n" ]; then
   hexo g
 else
   echo "Unrecognized command for hexo deploy!, only 'y' or 'n' should be applied"
-  exit 1
 fi
 
 git add .
