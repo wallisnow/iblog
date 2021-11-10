@@ -1,7 +1,7 @@
 ---
-title: "[jenkins]Intellj jenkins pipeline代码高亮设置"
+title: "[jenkins]Intellij jenkins pipeline代码高亮设置"
 date: 2021-10-22 10:13:50
-tags: ["jenkins", "Intellj"]
+tags: ["jenkins", "Intellij"]
 categories: ["jenkins"]
 toc: true
 ---
@@ -11,7 +11,7 @@ toc: true
 
 # 方法
 ## 配置pipeline代码让groovy可以识别
-在Intellj 的setting中, 找到File types, 然后按下图让intellj识别你的Jenkinsfile为groovy文件
+在Intellij 的setting中, 找到File types, 然后按下图让Intellij识别你的Jenkinsfile为groovy文件
 ![](https://res.cloudinary.com/djpkulbas/image/upload/v1634887503/blog/jenkins/jenkins1_lwce9g.png)
 <!--more-->
 ## 配置pipeline的语法声明描述文件
