@@ -20,7 +20,11 @@ hello:
 会输出 "hello world", 这里的@符号是为了除去输出echo 语句
 
 ### 例子2 - 依赖传递
-首先定义两个函数(以下代码放到同一个文件夹下), add 和 dev, 这里重点关注make, 两个函数只是随意定义的即可
+
+下面这个例子中, 我们定义一个main函数, 这个函数引用, add.c 和 dev.c. 然后在main函数中调用add和dev中的方法. 这里我们就需要用到 编译后的add和dev文件 add.o及dev.o给main.c: 
+
+
+首先定义两个函数(以下代码放到同一个文件夹下), add 和 dev,这里重点关注make, 两个函数只是随意定义的即可
 
 - add
 
@@ -40,6 +44,7 @@ int add(int x, int y) {
 ```
 
 - dev
+
 头文件 dev.h
 ```bash
 #ifndef UNTITLED1_DEV_H
@@ -89,6 +94,7 @@ main:main.c add.o dev.o
 运行 make man, 可以即得到我们预期的main 的二进制文件, 使用./main执行即可. 如果此时你查看当前目录, 也可以看到add.o, dev.o 文件, 因为这些是中间目标文件.
 
 ### 删除目标文件
+
 执行完或者执行前, 我们希望删除之前生成的文件
 ```bash
 #定义一个变量来写clean 
@@ -107,6 +113,7 @@ all: $(C_CLEAN) main
 那么, 此时, 我们只需要执行make all 即可. 这里定义了一个伪目标, 避免当存在文件名为clean文件时, 因为**makefile是以文件为默认目标, 且先尝试找文件**, 编译失败, 具体大家可以搜搜.PHONY的详细用法
 
 ## 总结
+
 单纯Makefile是非常强大的, 因为它把项目的编译主动权交给了开发人员, 那么个人理解, 如果是一些Iaas和Paas层的开发较常见使用, 比如涉及容器, kubernetes, vm等. 而软件层面往往使用现有的封装好的框架工具比如gradle此类即可. 
 
 
