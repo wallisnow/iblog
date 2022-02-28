@@ -1,5 +1,5 @@
 ---
-title: lsof的权限问题
+title: Makefile入门
 date: 2022-02-03 10:34:51
 tags: ["linux", "makefile"]
 categories: ["linux"]
@@ -10,7 +10,7 @@ categories: ["linux"]
 不写具体定义, 个人理解就是一个通用的将代码组织起来的工具, 在java中我们常用maven或者gradle, 他们可以帮助我们编译java, 打包, 配置等等. 而makefile则是将这个过程交给开发人员本身, 用目标文件和它是怎么来的定义make的过程, 比如, 我们有一个, 可执行文件a, 这个a引用了b, 那么我们定义这个a的依赖过程, 就可以写在make中
 
 ## 举个栗子
-
+<!--more-->
 ### 入门例子1 - hello 
 此时,创建一个Makefile文件(建议习惯性使用Makefile作为文件名, 避免不同系统直接拷贝后不可用的问题), 写入下面内容(注意, 第二行开头是tab键不是空格), 执行 make hello
 ```bash
