@@ -1,7 +1,8 @@
 ---
 title: 如何查看容器对应的宿主上打开的文件
 date: 2022-02-03 10:15:30
-tags: ["linux"]
+tags: ["linux", "docker"]
+categories: ["linux"]
 ---
 
 ## 查看容器对应的pid

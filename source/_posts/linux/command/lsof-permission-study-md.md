@@ -1,7 +1,8 @@
 ---
 title: lsof的权限问题
 date: 2022-02-03 10:34:51
-tags: ["linux"]
+tags: ["linux", "lsof"]
+categories: ["linux"]
 ---
 
 ## lsof 了解
