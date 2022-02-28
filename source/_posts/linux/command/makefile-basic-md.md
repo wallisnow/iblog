@@ -112,6 +112,64 @@ all: $(C_CLEAN) main
 ```
 那么, 此时, 我们只需要执行make all 即可. 这里定义了一个伪目标, 避免当存在文件名为clean文件时, 因为**makefile是以文件为默认目标, 且先尝试找文件**, 编译失败, 具体大家可以搜搜.PHONY的详细用法
 
+#### 所有代码
+
+目录
+```bash
+.
+├── add.c
+├── add.h
+├── cmake-build-debug
+├── CMakeLists.txt
+├── dev.c
+├── dev.h
+├── main.c
+└── Makefile
+
+1 directory, 7 files
+```
+
+Makefile
+```bash
+A=hello
+B=world
+C=big $(B)
+
+C_SOURCE=main.c dev.c add.c
+C_CLEAN=clean
+
+#目标文件一定要存在, 依赖文件可以不需要
+#echo "hello world"
+#hello world
+
+#添加@后, 不会打印
+#hello world
+hello:
+	@echo "hello world"
+
+add.o:add.c
+	gcc -c $^
+
+dev.o:dev.c
+	gcc -c $^
+
+main:main.c add.o dev.o
+	gcc $^ -o $@
+
+all: $(C_CLEAN) main
+
+#使用变量
+vars:
+	@echo $A
+	@echo $B
+	@echo $C
+
+$(C_CLEAN):
+	rm *.o main
+
+.PHONY: $(C_CLEAN)
+```
+
 ## 总结
 
 单纯Makefile是非常强大的, 因为它把项目的编译主动权交给了开发人员, 那么个人理解, 如果是一些Iaas和Paas层的开发较常见使用, 比如涉及容器, kubernetes, vm等. 而软件层面往往使用现有的封装好的框架工具比如gradle此类即可. 
