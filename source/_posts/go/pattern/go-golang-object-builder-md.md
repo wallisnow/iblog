@@ -50,6 +50,7 @@ public class User {
 
 ## Go中的对象builder
 
+具体我们直接看代码, 这里代码比较简单直接
 ```go
 type Product struct {
 	Id   int    
