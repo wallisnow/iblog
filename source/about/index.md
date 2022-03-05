@@ -1,6 +1,7 @@
 ---
 title: 关于我
 date: 2021-09-20 09:01:06
+comments: false
 ---
 
 - I'm a Daddy who code in different areas, I hope my blog could give you some ideas

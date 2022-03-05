@@ -1,6 +1,7 @@
 ---
 title: copyright
 date: 2021-09-20 09:03:20
+comments: false
 ---
 # 基本信息
 - 作者: Jiang WU
