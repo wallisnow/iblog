@@ -1,11 +1,11 @@
 ---
-title: go中实现简单的Object builder.md 
+title: go中实现简单的 Object builder
 date: 2022-03-03 11:12:22 
 tags: ["golang", "builder"]
 categories: ["golang"]
 ---
 
-## 建造者模式
+## 对象建造者
 
 在Java 中我们常用建造者模式来构建对象, 相较于传统构造器, 它更加灵活, 但是需要前期编码更多, 那么我们是否可以也在go中实现呢?
 
