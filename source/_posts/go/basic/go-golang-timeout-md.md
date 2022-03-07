@@ -1,5 +1,5 @@
 ---
-title: go中实现简单线程回调函数
+title: go中实现简单异步回调函数
 date: 2022-03-06 20:16:13
 tags: ["golang", "channel"]
 categories: ["golang"]
