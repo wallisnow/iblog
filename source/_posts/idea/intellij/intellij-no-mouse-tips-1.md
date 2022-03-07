@@ -1,8 +1,8 @@
 ---
-title: "[IntelliJ] intellj无鼠标常用操作"
+title: "[intellij] intellj无鼠标常用操作"
 date: 2021-10-26 09:06:12
-tags: ["IntelliJ"]
-categories: ["IntelliJ"]
+tags: ["intellij"]
+categories: ["intellij"]
 toc: true
 ---
 

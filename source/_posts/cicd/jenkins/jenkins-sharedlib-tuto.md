@@ -1,7 +1,7 @@
 ---
 title: "[Jenkins Job DSL]jenkins pipeline 编写共享库"
 date: 2021-11-10 09:47:09
-tags: ["jenkins", "Intellij"]
+tags: ["jenkins", "intellij"]
 categories: ["jenkins"]
 toc: true
 ---

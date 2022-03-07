@@ -1,7 +1,7 @@
 ---
 title: "[jenkins]Intellij jenkins pipeline代码高亮设置"
 date: 2021-10-22 10:13:50
-tags: ["jenkins", "Intellij"]
+tags: ["jenkins", "intellij"]
 categories: ["jenkins"]
 toc: true
 ---
