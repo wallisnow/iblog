@@ -13,7 +13,7 @@ categories: ["golang"]
 
 ## 代码
 我们模拟一个这样的场景, task线程比如我们就是一个耗时的操作sleep, 那么我们希望B正常执行完成后, 回调函数, 控制台输出成功
-
+<!--more-->
 ```go
 //定义一个channel来记录task的执行结果
 var result = make(chan string)
