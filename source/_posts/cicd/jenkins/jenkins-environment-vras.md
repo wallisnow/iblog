@@ -1,7 +1,7 @@
 ---
 title: Jenkins pipeline 中的环境变量
 date: 2021-10-22 11:06:31
-tags: ["jenkins"]
+tags: ["jenkins","pipeline"]
 categories: ["jenkins"]
 toc: true
 ---
