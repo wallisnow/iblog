@@ -1,5 +1,5 @@
 ---
-title: jenkins 加载groovy脚本
+title: jenkins pipeline加载groovy脚本
 date: 2022-03-08 21:05:37
 tags: ["jenkins","pipeline"]
 categories: ["jenkins"]
