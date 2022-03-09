@@ -7,7 +7,7 @@ toc: true
 ---
 
 ## 需求
-有时我们希望将jenkins pipeline的代码模块化, 那么这时, 我们可以使用[Jenkins Shared Libraries](http://unprobug.com/2021/11/10/cicd/jenkins/jenkins-sharedlib-tuto/), 但有时我们的代码量不大时, 可以考虑直接加载脚本
+有时我们希望将jenkins pipeline的代码模块化, 比如将一些公共常用的方法写在一个groovy文件中然后在Jenkinsfile 调用, 那么这时, 我们可以使用[Jenkins Shared Libraries](http://unprobug.com/2021/11/10/cicd/jenkins/jenkins-sharedlib-tuto/), 但有时我们的代码量不大时, 可以考虑直接加载脚本
 
 ## 插件 Pipeline: Groovy
 首先安装Pipeline: Groovy插件, 详见[Pipeline: Groovy](https://plugins.jenkins.io/workflow-cps/)
@@ -54,9 +54,6 @@ pipeline {
         }
         stage('Result') {
             steps {
-                script {
-                    FAILED_STAGE = env.STAGE_NAME
-                }
                 junit '**/target/surefire-reports/TEST-*.xml'
                 archiveArtifacts 'target/*.jar'
             }
@@ -65,7 +62,7 @@ pipeline {
     post {
         always {
             script {
-                echo "Failed stage name: ${FAILED_STAGE}"
+                echo "DONE"
             }
         }
     }
