@@ -24,7 +24,7 @@ func task(){
 	result <- "success"
 }
 
-//启用一个线程(go中叫协程)来执行task
+//启用一个协程来执行task
 //这里注意 return 是不会被阻塞的
 func start() chan string{
 	go task()
