@@ -279,7 +279,7 @@ test.sh
 ```bash
 runc kill <pid>
 ```
-- 
+
 - 删除容器
 ```bash
 runc delete <pid>
