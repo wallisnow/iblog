@@ -11,16 +11,17 @@ docker ----> runc -----> os
 
 ## 测试环境
 
-假设此时, 我们有一个容器
+假设此时, 我们有一个容器, 这里我们需要新建一个rootfs文件夹, runc也就是使用此文件内的文件为容器内部代码, 如果你观察, 其实就是docker 镜像内部文件
 ```bash
 #解包一个本地容器内容
 mkdir rootfs
 sudo docker export $(sudo docker create busybox:1.34.1)|tar -C ./rootfs -xvf -
 ```
-然后生成runc配置
+然后生成runc配置文件config.json, 配合上面的rootfs内部文件, 就可以用runc 启动容器了
 ```bash
 runc spec 
 ```
+
 <!--more-->
 此时会生成一个config.json, 如下
 ```json
