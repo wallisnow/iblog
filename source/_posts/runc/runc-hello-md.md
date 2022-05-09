@@ -227,3 +227,54 @@ ID          PID         STATUS      BUNDLE               CREATED                
 test        35850       running     /home/bx/busybox   2022-05-09T13:36:30.6041705Z   root
 ```
 
+## 配置文件的使用
+runc 在生成这个配置文件config.json后, 便会以这个文件为基准来创建容器, 这里也有很多常见的docker配置, 比如, env, mount等, 这里以mount为例, 我们在上面的配置中添加一个挂载点
+```json
+"mounts": [
+...
+                {
+                        "destination": "/app",
+                        "type": "bind",
+                        "source": "/home/test/runc/app",
+                        "options": [
+                                "rbind","rw"
+                        ]
+                },
+...]
+```
+再次启动容器
+```bash
+~> sudo runc run mytest
+~> sudo runc list
+ID          PID         STATUS      BUNDLE                   CREATED                          OWNER
+mytest      107520      running     /home/test/runc/alpine   2022-05-09T18:46:37.156872532Z   root
+```
+进入容器查看挂载的文件
+```bash
+~> sudo runc exec -t mytest sh
+/ # ls
+app    bin    dev    etc    home   lib    media  mnt    opt    proc   root   run    sbin   srv    sys    tmp    usr    var
+/ # cd app/
+/app # ls
+test.sh
+/app # 
+```
+这个挂载点就对应了我们本地挂载的文件夹, 里面有个我们创建的test.sh
+```bash
+~/runc/app> ls
+test.sh
+~runc/app> pwd
+/home/test/runc/app
+```
+
+## 删除容器
+
+- 关闭容器进程
+```bash
+runc kill <pid>
+```
+- 
+- 删除容器
+```bash
+runc delete <pid>
+```
