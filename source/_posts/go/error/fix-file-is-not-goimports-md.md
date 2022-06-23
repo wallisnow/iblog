@@ -19,7 +19,7 @@ File is not `goimports`-ed (goimports)
 //安装goimports
 go get golang.org/x/tools/cmd/goimports
 //更新报错的文件
-goimports -w -local ccd.ericsson.com/ccdadm <path-to-file>
+goimports -w -local mit.com/adm <path-to-file>
 ```
 
 2. 使用golang插件
