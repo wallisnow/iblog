@@ -9,7 +9,7 @@ categories: ["kubernetes"]
 今天在升级kubernetes集群时，被升级节点突然开始变得异常缓慢，ssh需要很久很久, 但是却可以ping的通. 有问题如下:
 
 - 节点缓慢
-- 可以ping 不可以ssh
+- 可以ping ssh很慢
 - 健康节点上 kubectl describe node, 可以看到 
 ```bash
 Conditions:
